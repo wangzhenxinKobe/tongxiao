@@ -3,8 +3,8 @@ $(function () {
         var nav_class = $(this).attr('data-nav');
         //alert(nav_class);
         $(this).css({
-            'border-bottom-color':'#e03137'
-        }).find('a').css({'color':'#e03137'});
+            'border-bottom-color':'#0068b7'
+        }).find('a').css({'color':'#0068b7'});
 
         $('.'+nav_class).show();
     });
@@ -23,8 +23,8 @@ $(function () {
         var nav = nav_data[0];
 
         $("[data-nav=" + nav +']').css({
-            'border-bottom-color':'#e03137'
-        }).find('a').css({'color':'#e03137'});
+            'border-bottom-color':'#0068b7'
+        }).find('a').css({'color':'#0068b7'});
         $(this).show();
     });
     $('.navbox').on("mouseleave",function () {
