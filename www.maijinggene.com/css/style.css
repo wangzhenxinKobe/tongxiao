@@ -782,7 +782,7 @@ input::-moz-focus-inner {
 	*zoom: 1;
 	font-size: 26px;
 	color: #5d5d5d;
-	background: url("../images/mico1.png") no-repeat left 5px;
+	background: url("../picture/logo1.png") no-repeat left 5px;
 }
 
 .menu-list {
@@ -1393,4 +1393,10 @@ input::-moz-focus-inner {
 .proint-text img{
 	margin-left: 10px;
 	margin-bottom: 20px;
+}
+table th {
+	font-size: 30px;
+}
+table td {
+	font-size: 20px;
 }
